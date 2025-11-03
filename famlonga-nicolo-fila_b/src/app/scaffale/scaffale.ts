@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './scaffale.css',
 })
 export class Scaffale {
-
+  lista =["mela","pera","fico","caco","banana"]
 }
