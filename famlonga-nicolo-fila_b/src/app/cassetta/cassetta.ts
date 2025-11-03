@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
 })
 export class Cassetta  {
   @Input() cassetta!: string;
-
+  lista = ["mela", "banana", "arancia"];
 
   ngOnInit() {}
 }
