@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cassetta',
@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   templateUrl: './cassetta.html',
   styleUrl: './cassetta.css',
 })
-export class Cassetta {
+export class Cassetta  {
+  @Input() cassetta!: string;
 
+
+  ngOnInit() {}
 }
