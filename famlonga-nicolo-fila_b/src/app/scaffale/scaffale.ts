@@ -8,5 +8,5 @@ import { Cassetta } from '../cassetta/cassetta';
   styleUrl: './scaffale.css',
 })
 export class Scaffale {
-  lista =["cassetta frutta: ","cassetta dolci","cassetta carne","cassetta verdure","cassetta frutta secca"]
+  lista =["cassetta frutta: ","cassetta dolci:","cassetta carne:","cassetta verdure:","cassetta frutta secca:"]
 }
